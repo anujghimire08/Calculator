@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arithmetic Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/ios7-inspired-mac-icon-set/512/Calculator_512.png">
+  </head>
+  <body>
+    <div class="container">
+      <h3>Arithmetic Calculator</h3>
+      <div class="display">
+      <input type="text" id="display" readonly />
+      </div>
+      <div class="buttonbox">
+
+        <button class="btn" onclick="currentvalue+='7';document.querySelector('#display').value=currentvalue;">7</button>
+
+        <button class="btn" onclick="currentvalue+='8';document.querySelector('#display').value=currentvalue;">8</button>
+
+        <button class="btn" onclick="currentvalue+='9';document.querySelector('#display').value=currentvalue;">9</button>
+
+        <button id="operation" class="btn" onclick="currentvalue+='+';document.querySelector('#display').value=currentvalue;">+</button>
+
+        <button class="btn" onclick="currentvalue+='4';document.querySelector('#display').value=currentvalue;">4</button>
+
+        <button class="btn" onclick="currentvalue+='5';document.querySelector('#display').value=currentvalue;">5</button>
+
+        <button class="btn"onclick="currentvalue+='6';document.querySelector('#display').value=currentvalue;">6</button>
+
+        <button id="operation" class="btn" onclick="currentvalue+='-';document.querySelector('#display').value=currentvalue;">-</button>
+
+        <button class="btn"onclick="currentvalue+='3';document.querySelector('#display').value=currentvalue;">3</button>
+
+        <button class="btn" onclick="currentvalue+='2';document.querySelector('#display').value=currentvalue;">2</button>
+
+        <button class="btn" onclick="currentvalue+='1';document.querySelector('#display').value=currentvalue;">1</button>
+
+        <button id="operation" class="btn" onclick="currentvalue+='*';document.querySelector('#display').value=currentvalue;">x</button>
+
+        <button id="operation" class="btn" onclick="currentvalue='';document.querySelector('#display').value=currentvalue;">AC</button>
+
+        <button class="btn" onclick="currentvalue+='0';document.querySelector('#display').value=currentvalue;">0</button>
+
+        <button class="btn"onclick="currentvalue+='.';document.querySelector('#display').value=currentvalue;">.</button>
+
+        <button id="operation" class="btn" onclick="currentvalue+='/';document.querySelector('#display').value=currentvalue;">/</button>
+
+        <button id="equalto" id="operation" class="btn" onclick="currentvalue=(eval(currentvalue)); document.querySelector('#display').value=currentvalue;">=</button>
+        
+      </div>
+    </div>
+
+     <footer>
+      <p>
+        &copy; 2025 | All Rights Reserved | <a style="text-decoration: none;" href="https://github.com/anujghimire08" target="_blank">Anuj Ghimire</a></p>
+     </footer>
+
+    <script>
+      let currentvalue = '';
+      document.querySelector('#display').value=currentvalue;
+    </script>
+  </body>
+</html>
