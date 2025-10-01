@@ -1,4 +1,4 @@
-# Arithmetic Calculator 🖩
+# Arithmetic Calculator 🧮
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -9,7 +9,7 @@
 ## 🌟 Live Demo
 
 Check the website live here:  
-[🔗 Live Preview](https://anujghimire08.github.io/Calculator/)
+[🔗 Live Preview](https://anujghimire08.)
 
 ## Project Overview
 The **Arithmetic Calculator** is a clean, responsive web-based application that performs basic arithmetic operations: addition, subtraction, multiplication, and division. Built with **HTML, CSS, and JavaScript**, it provides a modern and interactive user experience.
